@@ -1,0 +1,27 @@
+{
+  "name": "cab-overlay",
+  "version": "1.0.0",
+  "description": "web scraper for cab overlay chrome extension",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/squaredorito/BrownUniversityCAB-overlay"
+  },
+  "author": "Ken Noh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/squaredorito/BrownUniversityCAB-overlay/issues"
+  },
+  "homepage": "https://github.com/squaredorito/BrownUniversityCAB-overlay",
+  "dependencies": {
+    "browserify": "^14.4.0",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.15.4",
+    "request": "^2.81.0",
+    "requirejs": "^2.3.5"
+  }
+}
